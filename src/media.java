@@ -15,9 +15,13 @@ public class media {
         x *= 2; // é a mesma coisa que x = x *2
         System.out.println(x);*/
 
-        float v = 8.4f;
+        /*float v = 8.4f;
         int ar = (int) Math.round(v);
-        System.out.println(ar);
+        System.out.println(ar);*/
+
+        double ale = Math.random();
+        int n = (int) (15 + ale * (50-15));
+        System.out.println(n);
 
     }
 }
