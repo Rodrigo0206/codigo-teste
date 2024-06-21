@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ProgramaMedia {
     public static void main(String[] args) {
 
-        Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in); //essa classe caucula a media entre numero1 e numero 2
         System.out.println("A primeira nota é: ");
         float numero1 = teclado.nextFloat();
         System.out.println("A segunda nota é: ");
