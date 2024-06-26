@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CaucularIdade {
     public static void main(String[] args) {
-        Scanner t = new Scanner(System.in);
+        Scanner t = new Scanner(System.in);  // esse metodo caucula se a pessoa é maior de idade ou nao
         System.out.println("Em que ano voce nasceu? ");
         int nasc = t.nextInt();
         int i = 2024-nasc;
