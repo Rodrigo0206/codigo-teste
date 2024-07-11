@@ -1,6 +1,6 @@
 package objeto;
 
-public class AulaRodrigo {
+public class ClasseAula {
     int horario;
     boolean confirmado;
     void status (){
