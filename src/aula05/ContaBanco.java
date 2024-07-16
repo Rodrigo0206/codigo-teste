@@ -7,8 +7,14 @@ public class ContaBanco {
     private float saldo;
     private boolean status;
     //metodos personalizados
-    public void abrirConta(){
-
+    public void abrirConta(String t){
+        this.setTipo(t);
+        this.setStatus(true);
+        if (t == "CC"){
+            this.setSaldo(50);
+        }else if (t == "CP"){
+            this.setSaldo(150);
+        }
     }
     public void fecharConta(){
 
@@ -26,8 +32,8 @@ public class ContaBanco {
 
 
     public ContaBanco() {
-        this.setSaldo(0) ;
-        this.setStatus(false);
+        this.saldo=0 ;
+        this.status=false;
     }
 
     public int getNumConta() {
