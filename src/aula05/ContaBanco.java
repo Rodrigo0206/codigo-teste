@@ -28,7 +28,13 @@ public class ContaBanco {
         }
 
     }
-    public void depositar(){
+    public void depositar(float v){
+        if (this.getStatus()){
+            this.setSaldo(this.getSaldo() + v);
+            System.out.println("Deposito realizado na conta de " + this.getDono());
+        } else {
+            System.out.println("Impossivel depositar em uma aconta fechada");
+        }
 
     }
     public void sacar(){
@@ -77,7 +83,7 @@ public class ContaBanco {
         this.saldo = saldo;
     }
 
-    public boolean isStatus() {
+    public boolean getStatus() {
         return status;
     }
 
