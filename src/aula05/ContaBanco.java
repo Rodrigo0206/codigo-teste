@@ -7,6 +7,15 @@ public class ContaBanco {
     private float saldo;
     private boolean status;
     //metodos personalizados
+    public void estadoAtual(){
+        System.out.println("-----------------------------");
+        System.out.println("Conta: " + this.getNumConta());
+        System.out.println("Tipo: " + this.getTipo());
+        System.out.println("Dono: " + this.getDono());
+        System.out.println("Saldo: " + this.getSaldo());
+        System.out.println("Status: " + this.getStatus());
+    }
+
     public void abrirConta(String t){
         this.setTipo(t);
         this.setStatus(true);
