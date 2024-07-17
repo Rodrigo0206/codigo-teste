@@ -37,7 +37,17 @@ public class ContaBanco {
         }
 
     }
-    public void sacar(){
+    public void sacar(float v){
+        if (this.getStatus()){
+            if (this.getSaldo() >= v){
+                this.setSaldo(this.getSaldo() -v);
+                System.out.println("aque realizado com sucesso na cont de  " + this.getDono());
+            } else {
+                System.out.println("Saldo insuficiente para saque");
+            }
+        }else {
+            System.out.println("Impossivel sacar de uma conta fechada");
+        }
 
     }
     public void pagarMensal(){
