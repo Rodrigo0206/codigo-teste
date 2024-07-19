@@ -36,14 +36,15 @@ public class ControleRemoto implements Controlador {
     public void setTocando(boolean tocando) {
         this.tocando = tocando;
     }
-
+    //metodos abstratos
     @Override
-    public void ligar() {
-
+    public void ligar() {                     //Este metodo liga o controle
+        this.setLigado(true);
     }
 
     @Override
-    public void desligar() {
+    public void desligar() {                   //Este metodo desliga o controle
+        this.setLigado(false);
 
     }
 
