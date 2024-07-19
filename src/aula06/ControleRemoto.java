@@ -78,22 +78,30 @@ public class ControleRemoto implements Controlador {
     }
 
     @Override
-    public void ligarMudo() {
-
+    public void ligarMudo() {                           //Este metodo deixa mudo
+        if (this.getLigado() && this.getVolume() > 0){   // se o volume for maior que 0
+            this.setVolume(0);
+        }
     }
 
     @Override
-    public void desligarMudo() {
-
+    public void desligarMudo() {                         // Este metodo desliga o mudo
+        if (this.getLigado() && this.getVolume() == 0){   //voltando o volume para o 50
+            this.setVolume(50);
+        }
     }
 
     @Override
     public void play() {
-
+        if (this.getLigado() && !(this.getTocando())){
+            this.setTocando(true);
+        }
     }
 
     @Override
     public void pause() {
-
+        if (this.getLigado() && this.getTocando()){
+            this.setTocando(false);
+        }
     }
 }
