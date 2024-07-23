@@ -85,7 +85,7 @@ public class Lutador {
     }
 
     public void setCategoria() {
-        this.categoria = categoria;
+        this.categoria = categoria;    //teste
     }
 
     public int getVitorias() {
