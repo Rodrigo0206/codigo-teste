@@ -10,9 +10,20 @@ public class Lutador {
     private  int vitorias, derrotas,empates;
     // Metodos publicos
     public void apresentar() {
-
+        System.out.println("-----------------------------------");
+        System.out.println("CHEGOU A HORA! Apresentamos o lutador " + this.getNome());
+        System.out.println("Diretamente de " + this.getNacionalidade());
+        System.out.println("com " + this.getIdade() + " anos e " + this.altura + " de altura");
+        System.out.println("pesando " + this.getPeso() + "kg");
+        System.out.println(this.getVitorias() + "vitorias");
+        System.out.println(this.getDerrotas() + "derrotas e");
+        System.out.println(this.getEmpates() + " empates");
     }
     public void status(){
+        System.out.println(this.getNome() + " é um peso " +this.getCategoria());
+        System.out.println("Ganhou " + this.getVitorias() + " vezes");
+        System.out.println("Perdeu " + this.getDerrotas() + " vezes");
+        System.out.println("Empatou " + this.getEmpates() + " vezes");
 
     }
     public void ganharLuta(){
