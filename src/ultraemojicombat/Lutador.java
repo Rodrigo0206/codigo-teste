@@ -15,8 +15,8 @@ public class Lutador {
         System.out.println("Diretamente de " + this.getNacionalidade());
         System.out.println("com " + this.getIdade() + " anos e " + this.altura + " de altura");
         System.out.println("pesando " + this.getPeso() + "kg");
-        System.out.println(this.getVitorias() + "vitorias");
-        System.out.println(this.getDerrotas() + "derrotas e");
+        System.out.println(this.getVitorias() + " vitorias");
+        System.out.println(this.getDerrotas() + " derrotas e");
         System.out.println(this.getEmpates() + " empates");
     }
     public void status(){
@@ -45,7 +45,7 @@ public class Lutador {
         this.nacionalidade = na;
         this.idade = id;
         this.altura = al;
-        this.peso = pe;
+        this.setPeso(pe);
         this.vitorias = vi;
         this.derrotas = de;
         this.empates = em;
