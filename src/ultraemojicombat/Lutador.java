@@ -39,10 +39,10 @@ public class Lutador {
     //Metodos especiais
 
 
-    public Lutador(String na, String no, int id, float al,
+    public Lutador(String no, String na, int id, float al,
                    float pe, int vi, int de, int em) {
-        this.nacionalidade = na;
         this.nome = no;
+        this.nacionalidade = na;
         this.idade = id;
         this.altura = al;
         this.peso = pe;
