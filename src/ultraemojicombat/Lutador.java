@@ -16,12 +16,13 @@ public class Lutador {
 
     }
     public void ganharLuta(){
-
+        this.setVitorias(this.getVitorias() + 1);
     }
     public void perderLuta(){
-
+        this.setDerrotas(this.getDerrotas() + 1);
     }
     public void empatarLuta(){
+        this.setEmpates(this.getEmpates() + 1);
 
     }
     //Metodos especiais
