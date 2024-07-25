@@ -16,6 +16,7 @@ public class UltraEmojiCombat {
         l[5] = new Lutador("Nerd art", "EUA", 30, 1.81f,
                 105.7f, 12, 2, 4);
 
+
     }
 
 }
