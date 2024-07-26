@@ -16,6 +16,9 @@ public class UltraEmojiCombat {
         l[5] = new Lutador("Nerd art", "EUA", 30, 1.81f,
                 105.7f, 12, 2, 4);
 
+        Luta UEC01 = new Luta();
+        UEC01.marcarLuta(l[5], l[1]);
+        UEC01.lutar();
 
     }
 
