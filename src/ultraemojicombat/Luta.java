@@ -1,5 +1,7 @@
 package ultraemojicombat;
 
+import java.util.Random;
+
 public class Luta {
     //Atributos
     private Lutador desafiado;
@@ -21,7 +23,34 @@ public class Luta {
 
     }
     public void lutar(){
+        if (this.aprovada){
+            System.out.println("#### DESAFIADO  #######");
+            this.desafiado.apresentar();
+            System.out.println("#### DESAFIANTE  #######");
+            this.desafiante.apresentar();
 
+            Random aleatorio = new Random();
+            int vencedor = aleatorio.nextInt(3); // vai gerar um numero ou 0 ou 1 ou2
+            switch (vencedor){
+                case 0:  //empate
+                    System.out.println("Empatou");
+                    this.desafiado.empatarLuta();
+                    this.desafiante.empatarLuta();
+                    break;
+                case 1:  //desafiado vence
+                    System.out.println("Vitoria do " + this.desafiado.getNome());
+                    this.desafiado.ganharLuta();
+                    this.desafiante.perderLuta();
+                    break;
+                case 2:  // desafiante vence
+                    System.out.println("Vitoria do " + this.desafiante.getNome());
+                    this.desafiante.ganharLuta();
+                    this.desafiado.perderLuta();
+                    break;
+            }
+        } else {
+            System.out.println("A luta não pode acontecer");
+        }
     }
     //Metodos especiais
 
