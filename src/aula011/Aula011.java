@@ -10,6 +10,12 @@ public class Aula011 {
         System.out.println(v1.toString());*/
 
         Aluno a1 = new Aluno();
+        a1.setNome("rodrigo");
+        a1.setMatricula(1111);
+        a1.setCurso("info");
+        a1.setIdade(18);
+        a1.setSexo("M");
+        a1.pagarMensalidade();
 
     }
 }
