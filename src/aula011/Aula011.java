@@ -24,5 +24,8 @@ public class Aula011 {
         b1.setSexo("M");
         b1.pagarMensalidade();
 
+        Professor professor = new Professor();
+        professor.receberAumento();
+
     }
 }
