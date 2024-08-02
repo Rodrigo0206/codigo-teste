@@ -21,4 +21,12 @@ public class Peixe extends Animal{
     public void soltarBolha(){
         System.out.println("Soltou uma bolha");
     }
+
+    public String getCorEscama() {
+        return corEscama;
+    }
+
+    public void setCorEscama(String corEscama) {
+        this.corEscama = corEscama;
+    }
 }
