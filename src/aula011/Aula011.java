@@ -27,5 +27,8 @@ public class Aula011 {
         Professor professor = new Professor();
         professor.receberAumento();
 
+        Tecnico tecnico = new Tecnico();
+        tecnico.praticar();
+
     }
 }
