@@ -27,6 +27,7 @@ public class Cachorro extends Lobo{
             System.out.println("Abanar");
         } else {
             System.out.println("rosnar e latir");
+            this.emitirSom();
         }
     }
 
