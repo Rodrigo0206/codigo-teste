@@ -68,4 +68,15 @@ public class Video implements AcoesVideo {
     public void like() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Video{" +
+                "titulo='" + titulo + '\'' +
+                ", avaliacao=" + avaliacao +
+                ", views=" + views +
+                ", curtidas=" + curtidas +
+                ", reproduzindo=" + reproduzindo +
+                '}';
+    }
 }
