@@ -20,5 +20,29 @@ public class Main {
         clientes.add(new Cliente("paulo",70));
         clientes.add(new Cliente("gustavo",18));
 
+        long v = clientes.stream()
+                .filter(c -> c.getIdade() < 18).count();
+
+        clientes.forEach(c ->
+                System.out.println(c.getNome())
+        );
+
+
+
+
+
+
+
+
+
+
+
+       /*for(Cliente v : clientes){
+           print(v.getNome());
+        }
+
+    }
+    private static void print(String x){
+        System.out.println(x);*/
     }
 }
