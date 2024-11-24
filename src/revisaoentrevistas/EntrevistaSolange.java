@@ -15,6 +15,6 @@ public class EntrevistaSolange {
         Scanner teclado = new Scanner(System.in);
         String texto;
         System.out.println("Entre com seu nome: ");
-        texto = teclado;
-
+        //texto = teclado;
+    }
 }
