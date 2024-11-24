@@ -23,6 +23,8 @@ public class Main {
         long v = clientes.stream()
                 .filter(c -> c.getIdade() < 18).count();
 
+        System.out.println(v);
+
         clientes.forEach(c ->
                 System.out.println(c.getNome())
         );
