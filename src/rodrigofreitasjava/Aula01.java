@@ -1,4 +1,4 @@
-package rodrigofreitasaula1;
+package rodrigofreitasjava;
 
 public class Aula01 {
     public static void main(String[] args) {
