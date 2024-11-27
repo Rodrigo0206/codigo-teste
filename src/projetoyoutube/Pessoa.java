@@ -12,6 +12,10 @@ public abstract class Pessoa {
         this.experiencia = 0;
     }
 
+    public Pessoa() {
+
+    }
+
     public int getIdade() {
         return idade;
     }

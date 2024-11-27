@@ -1,19 +1,28 @@
 package rodrigofreitasjava;
 
+import java.util.Scanner;
+
 public class Aula05 {
     public static void main(String[] args) {
 
-        String pessoa = "mamifer";
+        Scanner scanner =  new Scanner(System.in);
+        System.out.println("Digite genero : ");
+        String genero = scanner.nextLine();
 
-        switch (pessoa){
+        //String pessoa = "mamifero";
+
+        switch (genero){
 
             case "homen":
-                System.out.println("è um humano");
+            case "menino":
+
+                System.out.println("è masculino");
                 break;
 
-            case "mamifero":
-                System.out.println("è um animal");
+            case "mulher":
+                System.out.println("è feminino");
                 break;
+
             default:
                 System.out.println("valor incorreto");
                 break;
