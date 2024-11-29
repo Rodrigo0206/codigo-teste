@@ -1,6 +1,6 @@
 package rodrigofreitasjava;
 
-public class Aula06 {
+public class Aula06ForWhileDowhile {
     public static void main(String[] args) {
         Integer a = 8;
 

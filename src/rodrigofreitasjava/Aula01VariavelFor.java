@@ -1,6 +1,6 @@
 package rodrigofreitasjava;
 
-public class Aula01 {
+public class Aula01VariavelFor {
     public static void main(String[] args) {
 
 

@@ -1,8 +1,6 @@
 package rodrigofreitasjava;
 
-import java.util.Scanner;
-
-public class Aula04 {
+public class Aula04IfElse {
     public static void main(String[] args) {
 
        // Scanner scanner = new Scanner(System.in);

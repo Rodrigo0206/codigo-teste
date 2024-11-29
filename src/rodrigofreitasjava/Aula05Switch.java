@@ -2,7 +2,7 @@ package rodrigofreitasjava;
 
 import java.util.Scanner;
 
-public class Aula05 {
+public class Aula05Switch {
     public static void main(String[] args) {
 
         Scanner scanner =  new Scanner(System.in);

@@ -2,7 +2,7 @@ package rodrigofreitasjava;
 
 import java.util.Scanner;
 
-public class Aula02e03 {
+public class Aula02e03Scanner {
     public static void main(String[] args) {
 
         /*String numero = "50";
