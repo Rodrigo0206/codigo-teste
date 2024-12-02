@@ -5,14 +5,47 @@ import java.util.Scanner;
 
 public class Aula07ArrayMatrizVetor {
     public static void main(String[] args) {
-       String [] lista = new String[3];
+
+        String[] [] list = new String[3] [2];
+
+        for (Integer i = 0 ; i < 3 ; i ++){
+            for (Integer j = 0 ; j < 2 ; j ++){
+                list [i] [j] = new Scanner(System.in).nextLine();
+            }
+
+        }
+        for (Integer i = 0; i < 3; i++){
+            for (Integer j = 0; j < 2; j++){
+                System.out.println(list[i] [j]);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /*String [] lista = new String[3];
        lista [0] = "rodrigo";
        lista [1] = "ricardo";
-       lista [2] = "sol";
+       lista [2] = "sol";*/
 
-        System.out.println("O primeiro nome é: " + lista[0] + "\n"
-                + "O segundo nome é: " + lista[1] + "\n"
-                + "O terceiro nome é: " + lista[2]);
+        //System.out.println("O primeiro nome é: " + lista[0] + "\n"
+             //   + "O segundo nome é: " + lista[1] + "\n"
+               // + "O terceiro nome é: " + lista[2]);
 
 
 
