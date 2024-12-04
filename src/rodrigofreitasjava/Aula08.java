@@ -5,15 +5,9 @@ public class Aula08 {
 
         Integer a = 3;
         Integer b = 2;
-        Integer soma = a +b;
+        Integer soma = 0;
 
-        if ( a % 2 ==0) {
-            soma = a +b;
-
-              }
-        else {
-            soma = a * b;
-        }
+        soma = calculo(a,b);
         System.out.println(soma);
     }
     private static Integer calculo(Integer a, Integer b){
@@ -26,7 +20,9 @@ public class Aula08 {
         else {
             soma = a * b;
         }
-        System.out.println(soma);
+        return soma;
+
+
 
 
     }
