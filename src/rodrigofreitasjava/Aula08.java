@@ -3,14 +3,49 @@ package rodrigofreitasjava;
 public class Aula08 {
     public static void main(String[] args) {
 
-        Integer a = 3;
-        Integer b = 2;
-        Integer soma = 0;
+        Integer x = 4;
+        Integer y = 5;
 
-        soma = calculo(a,b);
-        System.out.println(soma);
+        caulc(x,y) ;
+
+        public static void caulc(Integer x, Integer y){
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /*   Integer a = 3;
+        Integer b = 2;
+
+        calculo(a,b);
+
     }
-    private static Integer calculo(Integer a, Integer b){
+    private static void  calculo(Integer a, Integer b){
         Integer soma = 0 ;
 
         if ( a % 2 ==0) {
@@ -20,7 +55,8 @@ public class Aula08 {
         else {
             soma = a * b;
         }
-        return soma;
+        System.out.println(soma);*/
+
 
 
 
