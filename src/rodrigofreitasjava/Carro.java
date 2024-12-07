@@ -2,7 +2,30 @@ package rodrigofreitasjava;
 
 public class Carro {
 
-    private Integer rodas ;
+    Integer rodas = 8;
+    Integer portas = 8 ;
+
+    public Carro() {
+        //this.rodas = rodas ;
+        //this.portas = portas ;
+    }
+
+    public Integer getRodas() {
+        return rodas;
+    }
+
+    public void setRodas(Integer rodas) {
+        this.rodas = rodas;
+    }
+
+    public Integer getPortas() {
+        return portas;
+    }
+
+    public void setPortas(Integer portas) {
+        this.portas = portas;
+    }
+    /*private Integer rodas ;
     private Integer portas ;
 
     public Carro() {
@@ -29,5 +52,5 @@ public class Carro {
 
     public void setPortas(Integer portas) {
         this.portas = portas;
-    }
+    }*/
 }
