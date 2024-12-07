@@ -2,9 +2,18 @@ package rodrigofreitasjava;
 
 public class Carro {
 
-    private Integer rodas = 4;
-    private Integer portas = 2 ;
+    private Integer rodas ;
+    private Integer portas ;
 
+    public Carro() {
+        this.rodas = 2;
+        this.portas = 2;
+    }
+
+    public Carro(int rodas, int portas) {
+        this.rodas = rodas;
+        this.portas = portas ;
+    }
 
     public int getRodas() {
         return rodas;
