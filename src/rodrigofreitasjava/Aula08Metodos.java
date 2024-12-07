@@ -1,45 +1,11 @@
 package rodrigofreitasjava;
 
-public class Aula08 {
+public class Aula08Metodos {
     public static void main(String[] args) {
 
-        Integer x = 4;
-        Integer y = 5;
-
-        caulc(x,y) ;
-
-        public static void caulc(Integer x, Integer y){
-
-        }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     /*   Integer a = 3;
+        Integer a = 3;
         Integer b = 2;
 
         calculo(a,b);
@@ -55,7 +21,7 @@ public class Aula08 {
         else {
             soma = a * b;
         }
-        System.out.println(soma);*/
+        System.out.println(soma);
 
 
 
