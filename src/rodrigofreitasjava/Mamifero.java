@@ -7,6 +7,9 @@ public class Mamifero {
     public Mamifero() {
         this.patas = 2 ;
     }
+    public void som() {
+        System.out.println("som de mamifero");
+    }
 
     public Integer getPatas() {
         return patas;
