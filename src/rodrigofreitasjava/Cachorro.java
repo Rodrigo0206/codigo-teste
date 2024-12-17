@@ -2,10 +2,12 @@ package rodrigofreitasjava;
 
 public class Cachorro extends Mamifero {
 
-    Cachorro cachorro = new Cachorro();
+    //Cachorro cachorro = new Cachorro();
 
-    //@Override
-    cachorro.som()
+    @Override
+    public void som(){
+        System.out.println("auaua");
+    }
 
     {
         //  System.out.println("au au");
