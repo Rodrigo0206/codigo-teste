@@ -30,6 +30,6 @@ public class Entrevista {
         //for (Integer a = 1 ;  a <= 10000; a ++ ){
         //    lista.add(a);
         //}
-        System.out.println(list.get(4) + list.get(6));
+        System.out.println(list.get(4));
     }
 }
